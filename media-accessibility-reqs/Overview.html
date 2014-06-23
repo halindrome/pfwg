@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" typeof="bibo:Document w3p:WD" about="" property="dcterms:language" content="en" version="XHTML+RDFa 1.0">
+<html lang="en-US" typeof="bibo:Document w3p:WD" about="" property="dcterms:language" content="en">
 <head>
         <title>Media Accessibility User Requirements</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -10,8 +10,8 @@
      -->
     <!-- <script src='http://dev.w3.org/2009/dap/ReSpec.js/js/respec.js' class='remove'></script> -->
         <!--        <script src='/dev/2009/dap/ReSpec.js/js/respec.js' class='remove'></script> -->
-        
-        
+
+
         <style type="text/css">
 .req-handle
 {
@@ -29,7 +29,7 @@
  *****************************************************************/
 
 /* --- INLINES --- */
-em.rfc2119 { 
+em.rfc2119 {
     text-transform:     lowercase;
     font-variant:       small-caps;
     font-style:         normal;
@@ -180,33 +180,33 @@ span.note, span.issue { padding: .1em .5em .15em; }
 </style><link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/W3C-WD"><!--[if lt IE 9]><script src='https://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]--></head>
     <body class="h-entry" role="document" id="respecDocument"><div class="head" role="contentinfo" id="respecHeader">
   <p>
-    
+
       <a href="http://www.w3.org/"><img width="72" height="48" src="https://www.w3.org/Icons/w3c_home" alt="W3C"></a>
-    
+
   </p>
   <h1 class="title p-name" id="title" property="dcterms:title">Media Accessibility User Requirements</h1>
-  
+
   <h2 property="dcterms:issued" datatype="xsd:dateTime" content="2014-06-26T04:00:00.000Z" id="w3c-working-draft-26-june-2014"><abbr title="World Wide Web Consortium">W3C</abbr> Working Draft <time class="dt-published" datetime="2014-06-26">26 June 2014</time></h2>
   <dl>
-    
+
       <dt>This version:</dt>
       <dd><a class="u-url" href="http://www.w3.org/TR/2014/WD-media-accessibility-reqs-20140626/">http://www.w3.org/TR/2014/WD-media-accessibility-reqs-20140626/</a></dd>
       <dt>Latest published version:</dt>
       <dd><a href="http://www.w3.org/TR/media-accessibility-reqs/">http://www.w3.org/TR/media-accessibility-reqs/</a></dd>
-    
-    
+
+
       <dt>Latest editor's draft:</dt>
       <dd><a href="http://w3c.github.io/pfwg/media-accessibility-reqs/">http://w3c.github.io/pfwg/media-accessibility-reqs/</a></dd>
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
       <dt>Previous version:</dt>
       <dd><a rel="dcterms:replaces" href="http://www.w3.org/TR/2012/WD-media-accessibility-reqs-20120103/">http://www.w3.org/TR/2012/WD-media-accessibility-reqs-20120103/</a></dd>
-    
-    
+
+
     <dt>Editors:</dt>
     <dd class="p-author h-card vcard" rel="bibo:editor" inlist=""><span typeof="foaf:Person"><a class="u-url url p-name fn" rel="foaf:homepage" property="foaf:name" content="Shane McCarron" href="http://blog.halindrome.com">Shane McCarron</a>, Applied Testing and Technology, Inc., <span class="ed_mailto"><a class="u-email email" rel="foaf:mbox" href="mailto:shane@aptest.com">shane@aptest.com</a></span></span>
 </dd>
@@ -215,7 +215,7 @@ span.note, span.issue { padding: .1em .5em .15em; }
 <dd class="p-author h-card vcard" rel="bibo:editor" inlist=""><span typeof="foaf:Person"><span property="foaf:name" class="p-name fn">Mark Sadecki</span>, <a rel="foaf:workplaceHomepage" class="p-org org h-org h-card" href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a></span>
 </dd>
 
-    
+
       <dt>Authors:</dt>
       <dd class="p-author h-card vcard" rel="dcterms:contributor"><span typeof="foaf:Person"><span property="foaf:name" class="p-name fn">Judy Brewer</span>, <a rel="foaf:workplaceHomepage" class="p-org org h-org h-card" href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a></span>
 </dd>
@@ -232,34 +232,34 @@ span.note, span.issue { padding: .1em .5em .15em; }
 <dd class="p-author h-card vcard" rel="dcterms:contributor"><span typeof="foaf:Person"><span property="foaf:name" class="p-name fn">Janina Sajka</span>, Invited Expert</span>
 </dd>
 
-    
-    
+
+
   </dl>
-  
-  
-  
-  
-    
+
+
+
+
+
       <p class="copyright">
         <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> ©
         2014
-        
+
         <a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup>
         (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
         <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>,
-        <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>), 
-        
+        <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>),
+
         All Rights Reserved.
-        
+
         <abbr title="World Wide Web Consortium">W3C</abbr> <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
         <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and
-        
+
           <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a>
-        
+
         rules apply.
       </p>
-    
-  
+
+
   <hr>
 </div>
         <section id="abstract" class="introductory" property="dcterms:abstract" datatype="" typeof="bibo:Chapter" resource="#abstract" rel="bibo:Chapter"><!--OddPage--><h2 aria-level="1" role="heading" id="h2_abstract">Abstract</h2>
@@ -286,59 +286,59 @@ span.note, span.issue { padding: .1em .5em .15em; }
     needs of users with disabilities to web-based media. This document is an
     inventory of Media Accessibility User Requirements. </p>
         </section><section id="sotd" class="introductory" typeof="bibo:Chapter" resource="#sotd" rel="bibo:Chapter"><!--OddPage--><h2 aria-level="1" role="heading" id="h2_sotd">Status of This Document</h2>
-  
-    
-      
+
+
+
         <p>
           <em>This section describes the status of this document at the time of its publication.
           Other documents may supersede this document. A list of current <abbr title="World Wide Web Consortium">W3C</abbr> publications and the
           latest revision of this technical report can be found in the <a href="http://www.w3.org/TR/"><abbr title="World Wide Web Consortium">W3C</abbr> technical reports index</a> at
           http://www.w3.org/TR/.</em>
         </p>
-        
+
         <p>This document is reasonably stable, and represents a consensus within the Working Group.  The Working Group is looking for
         feedback prior to publication as a Note.</p>
-        
+
         <p>
           This document was published by the <a href="http://www.w3.org/WAI/PF/">Protocols and Formats Working Group</a> as a Working Draft.
-          
+
             This document is intended to become a <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation.
-          
-          
-            If you wish to make comments regarding this document, please send them to 
-            <a href="mailto:public-pfwg-comments@w3.org">public-pfwg-comments@w3.org</a> 
+
+
+            If you wish to make comments regarding this document, please send them to
+            <a href="mailto:public-pfwg-comments@w3.org">public-pfwg-comments@w3.org</a>
             (<a href="mailto:public-pfwg-comments-request@w3.org?subject=subscribe">subscribe</a>,
             <a href="http://lists.w3.org/Archives/Public/public-pfwg-comments/">archives</a>).
-          
-          
-          
-          
+
+
+
+
             All comments are welcome.
-          
+
         </p>
-        
-        
+
+
           <p>
             Publication as a Working Draft does not imply endorsement by the <abbr title="World Wide Web Consortium">W3C</abbr>
             Membership. This is a draft document and may be updated, replaced or obsoleted by other
             documents at any time. It is inappropriate to cite this document as other than work in
             progress.
           </p>
-        
-        
-        
+
+
+
         <p>
-          
-            This document was produced by a group operating under the 
+
+            This document was produced by a group operating under the
             <a id="sotd_patent" about="" rel="w3p:patentRules" href="http://www.w3.org/Consortium/Patent-Policy-20040205/">5 February 2004 <abbr title="World Wide Web Consortium">W3C</abbr> Patent
             Policy</a>.
-          
-          
-          
-            
+
+
+
+
               <abbr title="World Wide Web Consortium">W3C</abbr> maintains a <a href="http://www.w3.org/2004/01/pp-impl/32212/status" rel="disclosure">public list of any patent
-              disclosures</a> 
-            
+              disclosures</a>
+
             made in connection with the deliverables of the group; that page also includes
             instructions for disclosing a patent. An individual who has actual knowledge of a patent
             which the individual believes contains
@@ -346,17 +346,17 @@ span.note, span.issue { padding: .1em .5em .15em; }
             Claim(s)</a> must disclose the information in accordance with
             <a href="http://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Disclosure">section
             6 of the <abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a>.
-          
-          
+
+
         </p>
-        
-      
-    
-  
+
+
+
+
 </section><section id="toc"><h2 class="introductory" aria-level="1" role="heading" id="h2_toc">Table of Contents</h2><ul class="toc" role="directory" id="respecContents"><li class="tocline"><a href="#abstract" class="tocxref">Abstract</a></li><li class="tocline"><a href="#sotd" class="tocxref">Status of This Document</a></li><li class="tocline"><a href="#media-accessibility-checklist" class="tocxref"><span class="secno">1. </span> Media Accessibility Checklist </a></li><li class="tocline"><a href="#accessible-media-requirements-by-type-of-disability" class="tocxref"><span class="secno">2. </span> Accessible Media Requirements by Type of Disability </a><ul class="toc"><li class="tocline"><a href="#blindness" class="tocxref"><span class="secno">2.1 </span> Blindness </a></li><li class="tocline"><a href="#low-vision" class="tocxref"><span class="secno">2.2 </span> Low vision </a></li><li class="tocline"><a href="#atypical-color-perception" class="tocxref"><span class="secno">2.3 </span> Atypical color perception </a></li><li class="tocline"><a href="#deafness" class="tocxref"><span class="secno">2.4 </span> Deafness </a></li><li class="tocline"><a href="#hard-of-hearing" class="tocxref"><span class="secno">2.5 </span> Hard of hearing </a></li><li class="tocline"><a href="#deaf-blind" class="tocxref"><span class="secno">2.6 </span> Deaf-blind </a></li><li class="tocline"><a href="#physical-impairment" class="tocxref"><span class="secno">2.7 </span> Physical impairment </a></li><li class="tocline"><a href="#cognitive-and-neurological-disabilities" class="tocxref"><span class="secno">2.8 </span> Cognitive and neurological disabilities </a></li></ul></li><li class="tocline"><a href="#alternative-content-technologies" class="tocxref"><span class="secno">3. </span> Alternative Content Technologies </a><ul class="toc"><li class="tocline"><a href="#described-video" class="tocxref"><span class="secno">3.1 </span> Described video </a><ul class="toc"></ul></li><li class="tocline"><a href="#text-video-description" class="tocxref"><span class="secno">3.2 </span> Text video description </a><ul class="toc"></ul></li><li class="tocline"><a href="#extended-video-descriptions" class="tocxref"><span class="secno">3.3 </span> Extended video descriptions </a><ul class="toc"></ul></li><li class="tocline"><a href="#clean-audio" class="tocxref"><span class="secno">3.4 </span> Clean audio </a><ul class="toc"></ul></li><li class="tocline"><a href="#content-navigation-by-content-structure" class="tocxref"><span class="secno">3.5 </span> Content navigation by content structure </a><ul class="toc"></ul></li><li class="tocline"><a href="#captioning" class="tocxref"><span class="secno">3.6 </span> Captioning </a><ul class="toc"></ul></li><li class="tocline"><a href="#enhanced-captions-subtitles" class="tocxref"><span class="secno">3.7 </span> Enhanced captions/subtitles </a><ul class="toc"></ul></li><li class="tocline"><a href="#sign-translation" class="tocxref"><span class="secno">3.8 </span> Sign translation </a><ul class="toc"></ul></li><li class="tocline"><a href="#transcripts" class="tocxref"><span class="secno">3.9 </span> Transcripts </a><ul class="toc"></ul></li></ul></li><li class="tocline"><a href="#system-requirements" class="tocxref"><span class="secno">4. </span> System Requirements </a><ul class="toc"><li class="tocline"><a href="#access-to-interactive-controls-menus" class="tocxref"><span class="secno">4.1 </span> Access to interactive controls / menus </a><ul class="toc"></ul></li><li class="tocline"><a href="#granularity-level-control-for-structural-navigation" class="tocxref"><span class="secno">4.2 </span> Granularity level control for structural navigation </a><ul class="toc"></ul></li><li class="tocline"><a href="#time-scale-modification" class="tocxref"><span class="secno">4.3 </span> Time-scale modification </a><ul class="toc"></ul></li><li class="tocline"><a href="#production-practice-and-resulting-requirements" class="tocxref"><span class="secno">4.4 </span> Production practice and resulting requirements </a><ul class="toc"></ul></li><li class="tocline"><a href="#discovery-and-activation-deactivation-of-available-alternative-content-by-the-user" class="tocxref"><span class="secno">4.5 </span> Discovery and activation/deactivation of available alternative content
       by the user </a><ul class="toc"></ul></li><li class="tocline"><a href="#requirements-on-making-properties-available-to-the-accessibility-interface" class="tocxref"><span class="secno">4.6 </span> Requirements on making properties available to the accessibility interface </a><ul class="toc"></ul></li><li class="tocline"><a href="#requirements-on-the-use-of-the-viewport" class="tocxref"><span class="secno">4.7 </span> Requirements on the use of the viewport </a><ul class="toc"></ul></li><li class="tocline"><a href="#requirements-on-the-parallel-use-of-alternate-content-on-potentially-multiple-devices-in-parallel" class="tocxref"><span class="secno">4.8 </span> Requirements on the parallel use of alternate content on potentially
       multiple devices in parallel </a><ul class="toc"></ul></li></ul></li><li class="tocline"><a href="#acknowledgements" class="tocxref"><span class="secno">A. </span>Acknowledgements</a><ul class="toc"><li class="tocline"><a href="#ack_group" class="tocxref"><span class="secno">A.1 </span>Participants in the PFWG at the time of publication</a></li><li class="tocline"><a href="#ack_others" class="tocxref"><span class="secno">A.2 </span>Other previously active PFWG participants and contributors</a></li><li class="tocline"><a href="#ack_funders" class="tocxref"><span class="secno">A.3 </span>Enabling funders</a></li></ul></li></ul></section>
-        
+
         <section id="media-accessibility-checklist">
             <!--OddPage--><h2 aria-level="1" role="heading" id="h2_media-accessibility-checklist"><span class="secno">1. </span> Media Accessibility Checklist </h2>
             <p>The following User Requirements have also been distilled into a <a href="http://www.w3.org/WAI/PF/HTML/wiki/Media_Accessibility_Checklist">Media Accessibility Checklist</a>.
@@ -1754,6 +1754,6 @@ span.note, span.issue { padding: .1em .5em .15em; }
                 <p>This publication has been funded in part with Federal funds from the U.S. Department of Education, National Institute on Disability and Rehabilitation Research (NIDRR) under contract number ED-OSE-10-C-0067. The content of this publication does not necessarily reflect the views or policies of the U.S. Department of Education, nor does mention of trade names, commercial products, or organizations imply endorsement by the U.S. Government.</p>
             </section>
         </section>
-    
+
 
 </body></html>
